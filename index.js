@@ -1,5 +1,5 @@
 // definition of arr 
-let arr = "000010101".split('')
+let coins = "000010101".split('')
 
 //coin flipper function
 const fliper = arr => {
@@ -24,4 +24,4 @@ const fliper = arr => {
     return t1
 }
 
-console.table(fliper(arr))
+console.table(fliper(coins))
